@@ -1,14 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <div id="logo">
-        <h1>안녕하세요.</p>
-    </div>
-</body>
+<!DOCTYPE HTML>
+<html lang="ko">
+	<head>
+		<title>김현준 포트폴리오</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/avatar.jpg" alt="프로필 이미지" /></span>
+					<h1 id="logo"><a href="#">김현준</a></h1>
+					<p>백엔드 지향 웹 개발자<br />
+					사용자 중심의 서비스를 만듭니다</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">소개</a></li>
+						<li><a href="#two">기술 스택</a></li>
+						<li><a href="#three">프로젝트</a></li>
+						<li><a href="#four">연락처</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://github.com/guo7404" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="mailto:guo7404@naver.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://blog.naver.com/guo7404" class="icon solid fa-blog" target="_blank"><span class="label">Blog</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="scroll-reveal">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="배너 이미지" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>안녕하세요!</h2>
+										<p>저는 백엔드 지향 웹 개발자 김현준입니다.</p>
+									</header>
+									<p>안녕하세요! 저는 사용자 중심의 웹 서비스를 만드는 것을 좋아하는 백엔드 개발자입니다. 효율적인 시스템 설계와 안정적인 서비스 운영에 관심이 많으며, 새로운 기술을 배우고 적용하는 것을 즐깁니다.</p>
+									<p>주요 관심 분야:</p>
+									<ul>
+										<li>효율적인 백엔드 시스템 설계</li>
+										<li>데이터베이스 최적화</li>
+										<li>RESTful API 설계</li>
+										<li>보안 및 성능 개선</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="scroll-reveal">
+								<div class="container">
+									<h3>기술 스택</h3>
+									<p>제가 보유한 주요 기술 스택입니다.</p>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">HTML5 / CSS3 / JavaScript</li>
+										<li class="icon solid fa-server">Java / Spring Boot</li>
+										<li class="icon solid fa-database">MariaDB / MySQL</li>
+										<li class="icon solid fa-mobile-alt">Android Studio</li>
+										<li class="icon solid fa-cogs">Git / GitHub</li>
+									</ul>
+									<div class="skills-detail">
+										<h4>상세 기술</h4>
+										<div class="row">
+											<div class="col-6">
+												<h5>백엔드</h5>
+												<ul>
+													<li>Java</li>
+													<li>Spring Boot</li>
+													<li>Spring Security</li>
+													<li>JPA / Hibernate</li>
+												</ul>
+											</div>
+											<div class="col-6">
+												<h5>데이터베이스</h5>
+												<ul>
+													<li>MariaDB</li>
+													<li>MySQL</li>
+													<li>HeidiSQL</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three" class="scroll-reveal">
+								<div class="container">
+									<h3>프로젝트</h3>
+									<p>제가 진행한 주요 프로젝트들입니다.</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="도서관 시스템" /></a>
+											<div class="inner">
+												<h4>도서관 책 조회/관리 시스템</h4>
+												<p>UML을 활용한 시스템 설계 프로젝트입니다. 책 위치와 대여 가능 권수만을 제공하며, 실제 대여는 시스템 외부에서 이루어지는 구조로 설계되었습니다.</p>
+												<ul class="project-tech">
+													<li>UML</li>
+													<li>시스템 설계</li>
+													<li>데이터베이스 설계</li>
+												</ul>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="여행지 공유 게시판" /></a>
+											<div class="inner">
+												<h4>여행지 공유 게시판 웹사이트</h4>
+												<p>프론트엔드와 협업하여 여행지를 공유할 수 있는 게시판 웹사이트를 개발했습니다. 사용자 인증, 게시글 CRUD, 댓글 기능 등을 구현했습니다.</p>
+												<ul class="project-tech">
+													<li>Java</li>
+													<li>Spring Boot</li>
+													<li>MariaDB</li>
+													<li>RESTful API</li>
+												</ul>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four" class="scroll-reveal">
+								<div class="container">
+									<h3>연락처</h3>
+									<p>프로젝트 제안이나 협업 제안을 기다립니다.</p>
+									<form method="post" action="#" id="contact-form">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="이름" required /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="이메일" required /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="제목" required /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="메시지" rows="6" required></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" class="primary" value="메시지 보내기" /></li>
+													<li><input type="reset" value="초기화" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+									<div class="contact-info">
+										<h4>연락처 정보</h4>
+										<ul>
+											<li><i class="fas fa-envelope"></i> guo7404@naver.com</li>
+											<li><i class="fab fa-github"></i> github.com/guo7404</li>
+											<li><i class="fas fa-blog"></i> blog.naver.com/guo7404</li>
+										</ul>
+									</div>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; 2025 김현준. All rights reserved.</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				// 연락처 폼 제출 처리
+				document.getElementById('contact-form').addEventListener('submit', function(e) {
+					e.preventDefault();
+					alert('메시지가 전송되었습니다. 빠른 시일 내에 답변 드리겠습니다.');
+					this.reset();
+				});
+
+				// 스크롤 애니메이션
+				const scrollElements = document.querySelectorAll('.scroll-reveal');
+
+				const elementInView = (el, percentageScroll = 100) => {
+					const elementTop = el.getBoundingClientRect().top;
+					return (
+						elementTop <= 
+						((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100))
+					);
+				};
+
+				const displayScrollElement = (element) => {
+					element.classList.add('visible');
+				};
+
+				const hideScrollElement = (element) => {
+					element.classList.remove('visible');
+				};
+
+				const handleScrollAnimation = () => {
+					scrollElements.forEach((el) => {
+						if (elementInView(el, 100)) {
+							displayScrollElement(el);
+						} else {
+							hideScrollElement(el);
+						}
+					});
+				};
+
+				// 스크롤 이벤트 리스너 추가
+				window.addEventListener('scroll', () => {
+					handleScrollAnimation();
+				});
+
+				// 초기 로드 시 애니메이션 실행
+				window.addEventListener('load', () => {
+					handleScrollAnimation();
+				});
+			</script>
+
+	</body>
 </html>
